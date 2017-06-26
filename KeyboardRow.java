@@ -22,7 +22,7 @@ class KeyboardRow {
 			return true;
 		}
 	}
-
+	// Main method.
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		System.out.println("Give the size of the array: ");
