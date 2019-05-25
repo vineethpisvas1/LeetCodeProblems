@@ -19,8 +19,8 @@ class Solution {
             }
         }
         int sum=0;
-        for(int i=0; i<list.size(); i++) {
-            sum += list.get(i);
+        for(Integer listItem : list) {
+            sum += listItem;
         }
         return sum;
     }
