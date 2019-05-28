@@ -20,9 +20,7 @@ class Solution {
     public int findMinimumDistance(int index, List<Integer> positions) {
         int minDistance = 10000;
         for(int position: positions) {
-            if(Math.abs(index-position)<minDistance) {
-                minDistance = Math.abs(index-position);
-            }
+            minDistance = Math.min(Math.abs(index-position), minDistance);
         }
         return minDistance;
     }
